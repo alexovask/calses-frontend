@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: opx;
+
+}
+body{
+    width: 1025px;
+}
+.clase-1{
+    background-color: #000;
+    color: #fff;
+}
+.clase-2{
+    background-color: #F0A83E;
+    color: #fff;
+}
+.clase-3{
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.clase-4{
+    height: 409px;
+    width: 1025px;
+    display: block;
+    background-image: url(./image/image_2.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #000;
+    
+}
+.fondo{
+    background-color: #faf9f5;
+}
+.valor{
+    color: #f1ad4a;
+}
+.pie-pagina{
+    background-color: #3C2313;
+}
