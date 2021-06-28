@@ -1,0 +1,121 @@
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
+.menu{
+    background-color: #222222;
+    height: 100px;
+    width: 100hv;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6) ;
+}
+.logo{
+    margin: 20px;
+}
+.menu-items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.menu-items li{
+    border-radius: 3px;
+    margin: 0 5px;
+    transition: all 400ms ease;
+}
+.menu-items li:hover{
+    background-color: rgba(0, 0, 0, .3);
+    transform: .4s;
+    transform: translatey(-5%);
+}
+.menu-items li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-family: 20px;
+    display: block;
+    text-transform: uppercase;
+    color: #F3F3F3;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+}
+.card-2{
+   
+    background-color: #FFFFFF;
+    width: 490px;
+    height: 350px; 
+    margin-top: 0;
+    margin-left: 10px;
+    border-radius: 4px;
+
+}
+.card-2 h2{
+    text-align: center;
+    color: #FC200C;
+    margin-top: 20px;
+    
+}
+.card-2 p{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.card-2 .tit-2{
+    text-align: left;
+    color: #000; 
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom:20px;
+}
+.ingre img{
+    display: flex;
+    margin-left: 348px;
+    margin-top: -149px;
+}
+.titulo-pizza{
+    position: absolute;
+    display: flex;
+    margin-top: -345px;
+    margin-left: 76px;
+}
+.titulo-pizza h2{
+    color:#FC200C;
+}
+.titulo-pizza h2 .color-2{
+    color:#fff;
+}
+.menu-footer{
+    background-color: #222222;
+    height: 150px;
+    width: 100hv;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6) ;
+}
+.menu-items-2{    
+    list-style: none;
+    margin-right: 30px;
+}
+.menu-items-2 li{
+    border-radius: 3px;
+    margin: 0 5px;    
+}
+.menu-items-2 li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-family: 20px;
+    display: block;
+    text-transform: uppercase;
+    color: #F3F3F3;
+}
